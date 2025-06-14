@@ -1,0 +1,27 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: Args: Topic='Universal Basic Income', Stance='pro', Speaker='Narrator', Points=2, TTS='pyttsx3', Format='mp3' ---
+--- generate_debate.py: Initializing Pyttsx3TTSService ---
+--- Pyttsx3TTSService: Initializing pyttsx3 engine... ---
+--- Pyttsx3TTSService: Found 75 voices. Using default. ---
+--- Pyttsx3TTSService: Engine initialized successfully. Speech rate set to 150. ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting single debate speech generation for topic 'Universal Basic Income' (pro). SpeechGenerator will use its internal naming. ---
+--- SpeechGenerator: Generating single debate speech. Topic: Universal Basic Income, Stance: pro ---
+--- SpeechGenerator: Synthesizing speech for Narrator on 'Universal Basic Income' (pro). Output: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3 ---
+--- SpeechGenerator: Speech Text (first 200 chars): Let me be unequivocally clear: Universal Basic Income is not just beneficial, it is essential, and I will lay out precisely why. Firstly, the undeniable positive impact of Universal Basic Income on as... ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'Let me be unequivocally clear: Universal Basic Inc...' to /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3 ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro_temp_8686.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro_temp_8686.wav (Size: 42218) ---
+--- Pyttsx3TTSService: ffmpeg found at 'ffmpeg'. ---
+--- Pyttsx3TTSService: Attempting to convert /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro_temp_8686.wav to MP3: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3 ---
+--- Pyttsx3TTSService: Successfully converted WAV to MP3: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3 ---
+--- Pyttsx3TTSService: Cleaning up leftover temporary WAV file: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro_temp_8686.wav ---
+--- SpeechGenerator: Successfully generated audio: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3 ---
+
+Successfully generated audio file: /app/debate_speech_tool/audio_outputs/narrator_universal_basic_income_pro.mp3
+File size: 7629 bytes
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---

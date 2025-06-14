@@ -1,0 +1,27 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: Args: Topic='Social Media Impact', Stance='con', Speaker='Narrator', Points=3, TTS='pyttsx3', Format='mp3' ---
+--- generate_debate.py: Initializing Pyttsx3TTSService ---
+--- Pyttsx3TTSService: Initializing pyttsx3 engine... ---
+--- Pyttsx3TTSService: Found 75 voices. Using default. ---
+--- Pyttsx3TTSService: Engine initialized successfully. Speech rate set to 150. ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting single debate speech generation for topic 'Social Media Impact' (con). SpeechGenerator will use its internal naming. ---
+--- SpeechGenerator: Generating single debate speech. Topic: Social Media Impact, Stance: con ---
+--- SpeechGenerator: Synthesizing speech for Narrator on 'Social Media Impact' (con). Output: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3 ---
+--- SpeechGenerator: Speech Text (first 300 chars): It is with a great sense of urgency that I must state: the notion of Social Media Impact is fraught with peril, and I will meticulously outline the dangers. A primary concern must be the detrimental effect of Social Media Impact upon the inherent risk of misuse and exploitation. The most glaring iss... ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'It is with a great sense of urgency that I must st...' to /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3 ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con_temp_9773.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con_temp_9773.wav (Size: 34812) ---
+--- Pyttsx3TTSService: ffmpeg found at 'ffmpeg'. ---
+--- Pyttsx3TTSService: Attempting to convert /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con_temp_9773.wav to MP3: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3 ---
+--- Pyttsx3TTSService: Successfully converted WAV to MP3: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3 ---
+--- Pyttsx3TTSService: Cleaning up leftover temporary WAV file: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con_temp_9773.wav ---
+--- SpeechGenerator: Successfully generated audio: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3 ---
+
+Successfully generated audio file: /app/debate_speech_tool/audio_outputs/narrator_social_media_impact_con.mp3
+File size: 5595 bytes
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---

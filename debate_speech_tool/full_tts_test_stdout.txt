@@ -1,0 +1,19 @@
+--- Pyttsx3TTSService imported successfully (full version) ---
+--- Pyttsx3TTSService: Initializing pyttsx3 engine... ---
+--- Pyttsx3TTSService: Found 75 voices. Using default. ---
+--- Pyttsx3TTSService: Engine initialized successfully. Speech rate set to 160. ---
+--- Pyttsx3TTSService instantiated (full version) ---
+--- Attempting to synthesize to MP3: /app/debate_speech_tool/audio_outputs/full_tts_test.mp3 ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'Hello from the full pyttsx3 service. This is for M...' to /app/debate_speech_tool/audio_outputs/full_tts_test.mp3 ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav (Size: 28402) ---
+--- Pyttsx3TTSService: ffmpeg found at 'ffmpeg'. ---
+--- Pyttsx3TTSService: Attempting to convert /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav to MP3: /app/debate_speech_tool/audio_outputs/full_tts_test.mp3 ---
+--- Pyttsx3TTSService: Successfully converted WAV to MP3: /app/debate_speech_tool/audio_outputs/full_tts_test.mp3 ---
+--- Pyttsx3TTSService: Cleaning up leftover temporary WAV file: /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav ---
+--- Attempting to synthesize to WAV: /app/debate_speech_tool/audio_outputs/full_tts_test.wav ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'This is for WAV output, from pyttsx3....' to /app/debate_speech_tool/audio_outputs/full_tts_test.wav ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/full_tts_test_temp_7581.wav (Size: 19514) ---
+--- Pyttsx3TTSService: Output saved as (non-MP3): /app/debate_speech_tool/audio_outputs/full_tts_test.wav ---
+--- Test synthesis calls completed. Check audio_outputs. ---

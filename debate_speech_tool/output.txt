@@ -1,0 +1,50 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: MockTTSService initialized ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized with output_directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting debate speech generation...
+--- SpeechGenerator: Generating speeches. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Output directory already exists: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Preparing to synthesize for Moderator: 'Welcome to today's debate on the future of AI.' -> /app/debate_speech_tool/audio_outputs/moderator_1.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'Welcome to today's debate on the future of AI.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/moderator_1.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Moderator: /app/debate_speech_tool/audio_outputs/moderator_1.mp3 ---
+--- SpeechGenerator: Preparing to synthesize for Alice: 'I believe AI will bring unprecedented prosperity.' -> /app/debate_speech_tool/audio_outputs/alice_2.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'I believe AI will bring unprecedented prosperity.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/alice_2.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Alice: /app/debate_speech_tool/audio_outputs/alice_2.mp3 ---
+--- SpeechGenerator: Preparing to synthesize for Bob: 'I am more cautious about the potential risks of advanced AI.' -> /app/debate_speech_tool/audio_outputs/bob_3.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'I am more cautious about the potential risks of advanced AI.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/bob_3.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Bob: /app/debate_speech_tool/audio_outputs/bob_3.mp3 ---
+--- SpeechGenerator: Preparing to synthesize for Alice: 'The benefits in healthcare and science alone are immense.' -> /app/debate_speech_tool/audio_outputs/alice_4.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'The benefits in healthcare and science alone are immense.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/alice_4.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Alice: /app/debate_speech_tool/audio_outputs/alice_4.mp3 ---
+--- SpeechGenerator: Preparing to synthesize for Bob: 'But we must consider job displacement and ethical concerns.' -> /app/debate_speech_tool/audio_outputs/bob_5.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'But we must consider job displacement and ethical concerns.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/bob_5.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Bob: /app/debate_speech_tool/audio_outputs/bob_5.mp3 ---
+--- SpeechGenerator: Preparing to synthesize for Moderator: 'Thank you both for your opening statements.' -> /app/debate_speech_tool/audio_outputs/moderator_6.mp3 ---
+--- MockTTSService: Synthesizing speech for: 'Thank you both for your opening statements.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/moderator_6.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio for Moderator: /app/debate_speech_tool/audio_outputs/moderator_6.mp3 ---
+--- SpeechGenerator: Finished generating speeches. 6 files created. ---
+
+Successfully generated the following audio files:
+- /app/debate_speech_tool/audio_outputs/moderator_1.mp3
+- /app/debate_speech_tool/audio_outputs/alice_2.mp3
+- /app/debate_speech_tool/audio_outputs/bob_3.mp3
+- /app/debate_speech_tool/audio_outputs/alice_4.mp3
+- /app/debate_speech_tool/audio_outputs/bob_5.mp3
+- /app/debate_speech_tool/audio_outputs/moderator_6.mp3
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---
