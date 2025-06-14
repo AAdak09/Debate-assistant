@@ -1,0 +1,20 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: Topic: AI in Education, Stance: pro, Speaker: DebaterX, Points: 3 ---
+--- generate_debate.py: MockTTSService initialized ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting single debate speech generation for topic 'AI in Education' (pro)...
+--- SpeechGenerator: Generating single debate speech. Topic: AI in Education, Stance: pro ---
+--- SpeechGenerator: Synthesizing speech for DebaterX on 'AI in Education' (pro). Output: /app/debate_speech_tool/audio_outputs/debaterx_ai_in_education_pro.mp3 ---
+--- SpeechGenerator: Speech Text (first 200 chars): Esteemed audience, today I will firmly argue in favor of AI in Education. My first crucial point is that AI in Education brings significant benefits to aspect 1. My first crucial point is that AI in E... ---
+--- MockTTSService: Synthesizing speech for: 'Esteemed audience, today I will firmly argue in favor of AI in Education. My first crucial point is that AI in Education brings significant benefits to aspect 1. My first crucial point is that AI in Education brings significant benefits to aspect 2. My first crucial point is that AI in Education brings significant benefits to aspect 3. Some may argue against AI in Education, perhaps citing concerns about X, but these are addressable. In conclusion, the evidence overwhelmingly supports AI in Education, and I urge you to consider its positive impact.' ---
+--- MockTTSService: Saving audio to: '/app/debate_speech_tool/audio_outputs/debaterx_ai_in_education_pro.mp3' ---
+--- MockTTSService: Speech synthesized successfully (mocked). ---
+--- SpeechGenerator: Successfully generated audio: /app/debate_speech_tool/audio_outputs/debaterx_ai_in_education_pro.mp3 ---
+
+Successfully generated the following audio file:
+- /app/debate_speech_tool/audio_outputs/debaterx_ai_in_education_pro.mp3
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---

@@ -1,0 +1,18 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+usage: generate_debate.py [-h] [--topic TOPIC] [--stance {pro,con,neutral}]
+                          [--speaker SPEAKER] [--points POINTS]
+                          [--tts {pyttsx3,mock}] [--output_format {mp3,wav}]
+
+Generate a debate speech.
+
+options:
+  -h, --help            show this help message and exit
+  --topic TOPIC         The topic of the debate.
+  --stance {pro,con,neutral}
+                        The stance on the topic.
+  --speaker SPEAKER     The name of the speaker.
+  --points POINTS       Number of main points.
+  --tts {pyttsx3,mock}  TTS engine to use.
+  --output_format {mp3,wav}
+                        Desired audio output format.

@@ -1,0 +1,27 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: Args: Topic='Renewable Energy', Stance='pro', Speaker='Narrator', Points=2, TTS='pyttsx3', Format='mp3' ---
+--- generate_debate.py: Initializing Pyttsx3TTSService ---
+--- Pyttsx3TTSService: Initializing pyttsx3 engine... ---
+--- Pyttsx3TTSService: Found 75 voices. Using default. ---
+--- Pyttsx3TTSService: Engine initialized successfully. Speech rate set to 150. ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting single debate speech generation for topic 'Renewable Energy' (pro). SpeechGenerator will use its internal naming. ---
+--- SpeechGenerator: Generating single debate speech. Topic: Renewable Energy, Stance: pro ---
+--- SpeechGenerator: Synthesizing speech for Narrator on 'Renewable Energy' (pro). Output: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3 ---
+--- SpeechGenerator: Speech Text (first 300 chars): Today, I will compellingly argue that Renewable Energy is not just beneficial, it is essential, and I will lay out precisely why. A crucial piece of evidence supporting Renewable Energy is its profound effect on aspect 1. Firstly, the undeniable positive impact of Renewable Energy on aspect 2 cannot... ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'Today, I will compellingly argue that Renewable En...' to /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3 ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro_temp_9087.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro_temp_9087.wav (Size: 3724) ---
+--- Pyttsx3TTSService: ffmpeg found at 'ffmpeg'. ---
+--- Pyttsx3TTSService: Attempting to convert /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro_temp_9087.wav to MP3: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3 ---
+--- Pyttsx3TTSService: Successfully converted WAV to MP3: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3 ---
+--- Pyttsx3TTSService: Cleaning up leftover temporary WAV file: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro_temp_9087.wav ---
+--- SpeechGenerator: Successfully generated audio: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3 ---
+
+Successfully generated audio file: /app/debate_speech_tool/audio_outputs/narrator_renewable_energy_pro.mp3
+File size: 383 bytes
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---

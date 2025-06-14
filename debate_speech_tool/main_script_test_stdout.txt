@@ -1,0 +1,27 @@
+--- generate_debate.py: script started ---
+--- generate_debate.py: main() called ---
+--- generate_debate.py: Args: Topic='Space Exploration', Stance='pro', Speaker='Narrator', Points=2, TTS='pyttsx3', Format='mp3' ---
+--- generate_debate.py: Initializing Pyttsx3TTSService ---
+--- Pyttsx3TTSService: Initializing pyttsx3 engine... ---
+--- Pyttsx3TTSService: Found 75 voices. Using default. ---
+--- Pyttsx3TTSService: Engine initialized successfully. Speech rate set to 150. ---
+--- generate_debate.py: Audio output directory set to: /app/debate_speech_tool/audio_outputs ---
+--- SpeechGenerator: Initialized. Output directory: /app/debate_speech_tool/audio_outputs ---
+--- generate_debate.py: SpeechGenerator initialized ---
+Starting single debate speech generation for topic 'Space Exploration' (pro). SpeechGenerator will use its internal naming. ---
+--- SpeechGenerator: Generating single debate speech. Topic: Space Exploration, Stance: pro ---
+--- SpeechGenerator: Synthesizing speech for Narrator on 'Space Exploration' (pro). Output: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3 ---
+--- SpeechGenerator: Speech Text (first 200 chars): Esteemed audience, today I will firmly argue in favor of Space Exploration. My first crucial point is that Space Exploration brings significant benefits to aspect 1. My first crucial point is that Spa... ---
+--- Pyttsx3TTSService: Preparing to synthesize: 'Esteemed audience, today I will firmly argue in fa...' to /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3 ---
+--- Pyttsx3TTSService: Saving speech to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro_temp_7882.wav ---
+--- Pyttsx3TTSService: Successfully saved to temporary WAV: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro_temp_7882.wav (Size: 8750) ---
+--- Pyttsx3TTSService: ffmpeg found at 'ffmpeg'. ---
+--- Pyttsx3TTSService: Attempting to convert /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro_temp_7882.wav to MP3: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3 ---
+--- Pyttsx3TTSService: Successfully converted WAV to MP3: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3 ---
+--- Pyttsx3TTSService: Cleaning up leftover temporary WAV file: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro_temp_7882.wav ---
+--- SpeechGenerator: Successfully generated audio: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3 ---
+
+Successfully generated audio file: /app/debate_speech_tool/audio_outputs/narrator_space_exploration_pro.mp3
+File size: 487 bytes
+--- generate_debate.py: main() finished ---
+--- generate_debate.py: script finished ---
